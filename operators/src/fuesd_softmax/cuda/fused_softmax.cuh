@@ -1,4 +1,5 @@
 #include <cub/block/block_reduce.cuh>
+#include <cub/cub.cuh>
 
 struct AttentionCausalMask {
     __forceinline__ __device__ bool
